@@ -2,23 +2,13 @@ package com.csc;
 
 public class TriangleNumberCalculator {
   // Your code goes here!
-  public int value(int value)
+  public int value(int input)
   {
-    int x = 1;
-    int answer = 0;
-
-    if(value == 0 || value == 1)
+    if(input > 0)
     {
-      return value;
+      return input + value(input - 1);
     }
-
-    while(x <= value)
-    {
-      answer = x + answer;
-      x++;
-    }
-
-    return answer;
+    return input;
   }
 
   public int add(int value1, int value2)

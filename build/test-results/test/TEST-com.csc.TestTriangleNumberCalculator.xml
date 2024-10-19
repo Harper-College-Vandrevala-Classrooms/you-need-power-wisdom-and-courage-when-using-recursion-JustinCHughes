@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.csc.TestTriangleNumberCalculator" tests="9" skipped="0" failures="0" errors="0" timestamp="2024-10-19T16:02:08" hostname="fedora" time="0.131">
+  <properties/>
+  <testcase name="twoThreeAddTest()" classname="com.csc.TestTriangleNumberCalculator" time="0.092"/>
+  <testcase name="fourTwoSubtractTest()" classname="com.csc.TestTriangleNumberCalculator" time="0.002"/>
+  <testcase name="oneOneAddTest()" classname="com.csc.TestTriangleNumberCalculator" time="0.003"/>
+  <testcase name="twoValueTest()" classname="com.csc.TestTriangleNumberCalculator" time="0.002"/>
+  <testcase name="oneValueTest()" classname="com.csc.TestTriangleNumberCalculator" time="0.002"/>
+  <testcase name="oneOneSubtractTest()" classname="com.csc.TestTriangleNumberCalculator" time="0.002"/>
+  <testcase name="twoThreeSubtractTest()" classname="com.csc.TestTriangleNumberCalculator" time="0.001"/>
+  <testcase name="fourTwoAddTest()" classname="com.csc.TestTriangleNumberCalculator" time="0.001"/>
+  <testcase name="fourValueTest()" classname="com.csc.TestTriangleNumberCalculator" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

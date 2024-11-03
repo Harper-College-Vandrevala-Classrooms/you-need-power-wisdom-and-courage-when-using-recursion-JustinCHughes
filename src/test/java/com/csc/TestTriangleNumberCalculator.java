@@ -93,19 +93,19 @@ public class TestTriangleNumberCalculator {
 
   @Test
   void threeSequence() {
-    ArrayList<Integer> list = new ArrayList<>(Arrays.asList(6,3,1));
+    ArrayList<Integer> list = new ArrayList<>(Arrays.asList(1,3,6));
     assertEquals(list, calculator.sequence(3));
   }
 
   @Test
   void fourSequence() {
-    ArrayList<Integer> list = new ArrayList<>(Arrays.asList(10,6,3,1));
+    ArrayList<Integer> list = new ArrayList<>(Arrays.asList(1,3,6,10));
     assertEquals(list, calculator.sequence(4));
   }
 
   @Test
   void fiveSequence() {
-    ArrayList<Integer> list = new ArrayList<>(Arrays.asList(15,10,6,3,1));
+    ArrayList<Integer> list = new ArrayList<>(Arrays.asList(1,3,6,10,15));
     assertEquals(list, calculator.sequence(5));
   }
 }

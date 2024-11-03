@@ -43,8 +43,8 @@ public class TriangleNumberCalculator {
     ArrayList<Integer> list = new ArrayList<>();
     if(input > 0)
     {
-      list.add(value(input));
       list.addAll(sequence(input - 1));
+      list.add(value(input));
     }
     return list;
   }

@@ -1,5 +1,8 @@
 package com.csc;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -86,5 +89,23 @@ public class TestTriangleNumberCalculator {
   @Test
   void fourTwoDivideTest() {
     assertEquals(3.3333333, calculator.divide(4,2),0.0001);
+  }
+
+  @Test
+  void threeSequence() {
+    ArrayList<Integer> list = new ArrayList<>(Arrays.asList(6,3,1));
+    assertEquals(list, calculator.sequence(3));
+  }
+
+  @Test
+  void fourSequence() {
+    ArrayList<Integer> list = new ArrayList<>(Arrays.asList(10,6,3,1));
+    assertEquals(list, calculator.sequence(4));
+  }
+
+  @Test
+  void fiveSequence() {
+    ArrayList<Integer> list = new ArrayList<>(Arrays.asList(15,10,6,3,1));
+    assertEquals(list, calculator.sequence(5));
   }
 }
